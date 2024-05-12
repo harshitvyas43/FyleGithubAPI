@@ -77,11 +77,6 @@ import { Component } from '@angular/core';
             <p class="text-sm font-normal text-gray-600">Following</p>
             </div>
         </div>
-        <div>
-            <a href="https://twitter.com/{{userInfo.twitter_username}}" target="_blank" *ngIf="userInfo.twitter_username" class="text-blue-500">
-                https://twitter.com/{{userInfo.twitter_username}}
-            </a>
-        </div>
     </div>    
 </div>
 </div>
@@ -107,7 +102,7 @@ import { Component } from '@angular/core';
 
 <div *ngIf="repositories.length > 0">
 <diV class="text-black text-center text-6xl font-bold">
-  repositories
+  Repositories
 </diV>
 <div class="flex flex-1 max-w-4xl mx-auto p-10">
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
